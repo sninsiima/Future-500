@@ -58,18 +58,110 @@ summary(df$City)
 df[df$City == "New York", ]
 df[df$City == "San Francisco",]
 
-## Impute missing State for Newyork and SanFransisco
-
 df_backup <- df
+#df <- df_backup
+head(df)
+## Impute missing State for Newyork and SanFransisco
+df[df$City == "New York", "State"] <- "NY"
 
+##Changing the data types to characters
+df$City <- as.character(df$City)
+df$State <- as.character(df$State)
+
+
+df[df$City == "San Francisco", "State"] <- "SF"
+
+class(df$State)
+glimpse(df)
+```
+
+```{r}
+df[!complete.cases(df),]
+```
+
+```{r}
+## Impute missing EMployees in Retail Industries
+df[is.na(df$Employees),]
+
+retail_ind <- df[df$Industry == "Retail",]
+summary(retail_ind)
+median_retail_ind <- median(retail_ind$Employees, na.rm = TRUE)
+ 
+df[df$Industry == "Retail" & is.na(df$Employees), ]
+df[df$Industry == "Retail" & is.na(df$Employees), "Employees"] <- median_retail_ind
+
+head(df)
+```
+
+```{r}
+## Impute missing Employees in Financial Services 
+df[is.na(df$Employees),]
+fin_ind <- df[df$Industry == "Financial Services",]
+median_emp_fin <- median(fin_ind$Employees, na.rm = TRUE)
+
+df[df$Industry == "Financial Services" & is.na(df$Employees), "Employees"] <- median_emp_fin
 
 ```
 
+```{r}
+df[!complete.cases(df),]
+```
 
+```{r}
+####median Imputation of the revenue Column ####
+df[is.na(df$Revenue),]
+const_ind <- df[df$Industry == "Construction", ]
+median_rev_const <- median(const_ind$Revenue, na.rm = TRUE)
+df[is.na(df$Revenue), "Revenue"]  <- median_rev_const
+df[!complete.cases(df),]
+```
 
+```{r}
+#it_ind_missing <- df[df$Industry == "IT Services" & is.na(df$Expenses),]
+#it_ind_missing$Expenses <- it_ind_missing$Revenue - it_ind_missing$Profit
+#it_ind_missing
+#df[df$Industry == "IT Services" & is.na(df$Expenses),] <- it_ind_missing
+#df[!complete.cases(df),]
+```
+```{r}
+median_exp_const <- median(const_ind$Expenses, na.rm = TRUE)
+df[df$Industry == "Construction" & is.na(df$Expenses), "Expenses"] <- median_exp_const
 
+#df[df$Industry == "Construction" & is.na(df$Profit), "Profit"] <- df$Revenue - df$Expenses
+df[!complete.cases(df),]
+```
+```{r}
 
+df$Profit <- df$Revenue - df$Expenses
+df[!complete.cases(df),]
+```
 
+```{r}
+## Fix Expenses in the IT Services Industry :: median imputation
+
+a <- df[df$Industry == "IT Services" & is.na(df$Expenses),]
+
+fin_exp <- df[df$Industry == "IT Services",]
+a$Expenses <-  median(fin_exp$Expenses, na.rm = TRUE)
+a
+df[df$Industry == "IT Services" & is.na(df$Expenses),] <- a
+
+df$Profit <- df$Revenue - df$Expenses
+df[!complete.cases(df),]
+```
+
+```{r}
+summary(df[df$Industry == "Construction", ])
+#10
+df[df$Industry == "Construction" & is.na(df$Growth), "Growth"] <- 10
+df[!complete.cases(df),]
+
+final_df <- df[complete.cases(df),]
+View(final_df)
+
+final_df[-c(14,15),] -> final_df
+View(final_df)
+```
 
 
 

@@ -1,2 +1,91 @@
-g[0Ki[0Kt[0K[47G[?25lC:\Users\sninsiima\Documents\R\Future-500>git a[0K[?25hd[0Kd[0K[51G[?25lC:\Users\sninsiima\Documents\R\Future-500>git add .[0K[?25h]0;  - git  add .[?25l
+git[0K[47G[?25lC:\Users\sninsiima\Documents\R\Future-500>git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K]0;  - git  status[?25l
+[0K[?25hOn branch master[0K[?25l
+Your branch is up to date with 'origin/master'.[0K
+[0K
+Changes to be committed:[0K
+  (use "git reset HEAD <file>..." to unstage)[0K
+[0K
+        [0;32mmodified:   .Rproj.user/DDDFF8B/console06/C42DF61[0m[0K
+        [0;32mmodified:   .Rproj.user/DDDFF8B/console06/INDEX001[0m[0K
+        [0;32mmodified:   .Rproj.user/DDDFF8B/sources/prop/4ED1AE5[0m[0K
+        [0;32mmodified:   .Rproj.user/DDDFF8B/sources/s-6D57D2A8/3CAADB22[0m[0K
+        [0;32mmodified:   .Rproj.user/DDDFF8B/sources/s-6D57D2A8/3CAADB22-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/DDDFF8B/sources/s-6D57D2A8/95FBF985-contents[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/c8aqbqvetziy3/000006.csv[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/c8aqbqvetziy3/000007.error[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/c8aqbqvetziy3/000017.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/ccz3a7pt0dipk/000005.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/ccz3a7pt0dipk/000005.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cem17vdg6k5xd/000008.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cem17vdg6k5xd/000008.rdf[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cgxgulvfqjz7j/00000a.csv[0m[0K
+        [0;32mmodified:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/chunks.json[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cibc23t65i3ok/000009.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cibc23t65i3ok/000009.rdf[0m[0K[?25h[?25l
+        [0;32mrenamed:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cgxgulvfqjz7j/00000b.metadata -> .Rpro[0Kj
+.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cnmvoivgwz7g6/000013.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cnmvoivgwz7g6/000013.rdf[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cpbuaqoqr6l58/000003.csv[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cpbuaqoqr6l58/000004.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cs6raax23n4dx/000007.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cs6raax23n4dx/000007.rdf[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/csetup_chunk/000002.csv[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/csjnjyfdvhy17/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cv74xp1boexhy/000008.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cv74xp1boexhy/000008.rdf[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cvq833bzzg6cw/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cvqd9bfnzerk5/000012.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cvqd9bfnzerk5/000012.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cyf114rn308cq/000016.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cyf114rn308cq/000016.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cyjec1v2vno3y/000002.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cyjec1v2vno3y/000002.rdf[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/c3apqd4m6x1mp/000004.rdf[0m[0K
+        [0;32mrenamed:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/cvq833bzzg6cw/000002.csv -> .Rproj.user/shared/noteb[0Ko
+oks/B35BD759-script/1/s/c8aqbqvetziy3/000017.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/ccz3a7pt0dipk/000004.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/ccz3a7pt0dipk/000004.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/cem17vdg6k5xd/000006.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/cem17vdg6k5xd/000006.rdf[0m[0K
+        [0;32mrenamed:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cpbuaqoqr6l58/000004.metadata -> .Rpro[0Kj
+.user/shared/notebooks/B35BD759-script/1/s/cfeobuilgs62i/000003.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/cfeobuilgs62i/000003.rdf[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/cgxgulvfqjz7j/000008.csv[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/cgxgulvfqjz7j/000009.metadata[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/cgxgulvfqjz7j/000009.rdf[0m[0K
+        [0;32mmodified:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/cgxgulvfqjz7j/00000a.csv[0m[0K
+        [0;32mrenamed:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/c3apqd4m6x1mp/000004.metadata -> .Rproj.user/shared/[0Kn
+otebooks/B35BD759-script/1/s/cgxgulvfqjz7j/00000b.metadata[0m[0K
+        [0;32mrenamed:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cgxgulvfqjz7j/00000b.rdf -> .Rproj.use[0Kr
+/shared/notebooks/B35BD759-script/1/s/cgxgulvfqjz7j/00000b.rdf[0m[0K
+        [0;32mrenamed:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cgxgulvfqjz7j/00000c.csv -> .Rproj.use[0Kr
+/shared/notebooks/B35BD759-script/1/s/cgxgulvfqjz7j/00000c.csv[0m[0K
+        [0;32mmodified:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/chunks.json[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/ck1jpng0zp8wh/000002.metadata[0m[0K[9G[?25h]0; [?25l
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/ck1jpng0zp8wh/000002.rdf[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/cmrrsxlsah37t/000009.csv[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/cmrrsxlsah37t/00000a.metadata[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/cmrrsxlsah37t/00000a.png[0m[0K
+        [0;32mdeleted:    .Rproj.user/shared/notebooks/B35BD759-script/1/s/cmrrsxlsah37t/00000a.snapshot[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/cnmvoivgwz7g6/000010.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/cnmvoivgwz7g6/000010.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/cs6raax23n4dx/000006.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/cvqd9bfnzerk5/00000d.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/B35BD759-script/1/s/cvqd9bfnzerk5/00000d.rdf[0m[0K
+        [0;32mrenamed:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cw74q0svu3xne/000002.metadata -> .Rpro[0Kj
+.user/shared/notebooks/B35BD759-script/1/s/cw74q0svu3xne/000002.metadata[0m[0K
+        [0;32mrenamed:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cw74q0svu3xne/000002.png -> .Rproj.use[0Kr
+/shared/notebooks/B35BD759-script/1/s/cw74q0svu3xne/000002.png[0m[0K
+        [0;32mrenamed:    .Rproj.user/shared/notebooks/B35BD759-script/1/DDDFF8B6D57D2A8/cw74q0svu3xne/000002.snapshot -> .Rpro[0Kj
+.user/shared/notebooks/B35BD759-script/1/s/cw74q0svu3xne/000002.snapshot[0m[0K
+        [0;32mmodified:   script.Rmd[0m[0K
+[0K
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/DDDFF8B/console06/C42DF61[0m[0K
+[0K
+[0K
+C:\Users\sninsiima\Documents\R\Future-500>[0K[?25hg[0Ki[0Kt[0Ka[0K[48G[?25lC:\Users\sninsiima\Documents\R\Future-500>gita d[0K[?25h[?25lC:\Users\sninsiima\Documents\R\Future-500>gita[0K[48G[?25h[47G[?25lC:\Users\sninsiima\Documents\R\Future-500>git[0K[?25hd[0K[?25lC:\Users\sninsiima\Documents\R\Future-500>git[0K[?25h[47G[?25lC:\Users\sninsiima\Documents\R\Future-500>git a[0K[?25hd[0Kd[0K[51G[?25lC:\Users\sninsiima\Documents\R\Future-500>git add .[0K[?25h]0;  - git  add .[?25l
 [0K[?25h
