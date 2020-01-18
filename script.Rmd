@@ -1,0 +1,70 @@
+---
+title: "Future 500 Project"
+author: "Ninsiss"
+date: "18 January 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Future 500 Project
+
+```{r}
+## Install Libraries
+library(tidyverse)
+library(Amelia)
+df <- read.csv("data/Future-500.csv", na.strings = c(" "))
+```
+
+```{r}
+missmap(df, col = c("yellow", "black"))
+```
+```{r}
+head(df)
+glimpse(df)
+```
+
+```{r}
+## sub, gsub
+
+## Cleaning Revenue Column
+df$Revenue <- gsub("\\$", "",  df$Revenue)
+df$Revenue <- gsub(",", "",  df$Revenue)
+df$Revenue <- as.numeric(df$Revenue)
+
+## Cleaning Expenses Column
+df$Expenses <- gsub(",", "", df$Expenses)
+df$Expenses <- gsub(" Dollars", "", df$Expenses)
+df$Expenses <- as.numeric(df$Expenses)
+
+
+## Cleaning Profit Column
+df$Growth <- gsub("%", "", df$Growth)
+df$Growth <- as.numeric(df$Growth)
+
+glimpse(df)
+summary(df)
+```
+
+```{r}
+df[!complete.cases(df),]
+```
+```{r}
+df[df$City == "New York",]
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
